@@ -1,0 +1,21 @@
+{
+  "name": "@zgb-tools/babel-plugin-remove-node-prefix",
+  "version": "0.1.1",
+  "author": "zhuguibiao <zhuguibiao1994@gmail.com>",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuguibiao/zgb-build-tools.git",
+    "directory": "packages/babel-plugins/remove-node-prefix"
+  },
+  "homepage": "https://github.com/zhuguibiao/zgb-build-tools.git",
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  }
+}

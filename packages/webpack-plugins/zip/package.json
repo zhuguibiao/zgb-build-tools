@@ -1,0 +1,33 @@
+{
+  "name": "@zgb-tools/webpack-plugin-zip",
+  "version": "0.1.0",
+  "description": "This plugin zip your dist each time at the end of the build.",
+  "author": "zhuguibiao <zhuguibiao1994@gmail.com>",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/index.esm.js"
+      },
+      "require": {
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuguibiao/zgb-build-tools.git",
+    "directory": "packages/webpack-plugins/zip"
+  },
+  "homepage": "https://github.com/zhuguibiao/zgb-build-tools.git",
+  "scripts": {
+    "build": "vite build"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "jszip": "^3.10.1"
+  }
+}

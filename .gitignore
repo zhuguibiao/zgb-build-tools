@@ -1,0 +1,10 @@
+/target
+*.node
+.DS_Store
+*.html
+
+node_modules
+dist
+*.wasm
+.yarn/
+.swc

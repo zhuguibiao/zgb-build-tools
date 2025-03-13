@@ -1,0 +1,20 @@
+[package]
+
+description = "SWC plugin for swc_plugin_remove_node_prefix"
+
+authors      = { workspace = true }
+edition      = { workspace = true }
+homepage     = { workspace = true }
+name         = "swc_plugin_remove_node_prefix"
+publish      = false
+repository   = { workspace = true }
+rust-version = { workspace = true }
+version      = "0.1.0"
+
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+swc_core                = { workspace = true, features = ["ecma_plugin_transform"] }
+swc_atoms               = { workspace = true }
